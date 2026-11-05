@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arabic Learning | Quran Academy</title>
+
+    <!-- YOUR EXISTING MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+     HEADER
+===================================================== -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <!-- Logo -->
+            <a href="#" class="logo" aria-label="Quran Academy">
+                <img src="images/quran-academy-logo.png" alt="Quran Academy">
+            </a>
+
+            <!-- Navigation -->
+            <nav class="navbar">
+
+                <a href="index.html">Home</a>
+
+                <div class="dropdown">
+
+                    <a href="quran.html" class="dropdown-link">
+                        Quran <span>⌄</span>
+                    </a>
+
+                    <div class="dropdown-menu">
+
+                        <a href="quran.html#reading-details">Quran Reading</a>
+                        <a href="quran.html#qaida">Qaida</a>
+                        <a href="quran.html#tajweed">Tajweed</a>
+                        <a href="quran.html#hifz">Hifz</a>
+                        <a href="quran.html#translation">Translation</a>
+                        <a href="quran.html#tafseer">Tafseer</a>
+
+                    </div>
+
+                </div>
+
+                <div class="dropdown">
+
+                    <a href="#arabic-hero" class="dropdown-link">
+                        Arabic <span>⌄</span>
+                    </a>
+
+                    <div class="dropdown-menu">
+
+                        <a href="arabic.html#reading-writing">Reading & Writing</a>
+                        <a href="arabic.html#arabic-beginners">Arabic for Beginners</a>
+                        <a href="arabic.html#arabic-kids">Arabic for Kids</a>
+                        <a href="arabic.html#arabic-adults">Arabic for Adults</a>
+                        <a href="arabic.html#quranic-arabic">Quranic Arabic</a>
+
+                    </div>
+
+                </div>
+
+                <div class="dropdown">
+
+                    <a href="tech.html" class="dropdown-link">
+                        Who We Teach <span>⌄</span>
+                    </a>
+
+                    <div class="dropdown-menu">
+
+                        <a href="tech.html#kids">Kids</a>
+                        <a href="tech.html#adults">Adults</a>
+                        <a href="tech.html#beginners">Complete Beginners</a>
+                        <a href="tech.html#new-muslims">New Muslims / Converts</a>
+                        <a href="tech.html#families">Families</a>
+
+                    </div>
+
+                </div>
+
+                <a href="work.html">How It Works</a>
+
+                <a href="blog.html">Blog</a>
+
+                <a href="faq.html">FAQs</a>
+
+                <a href="about.html">About Us</a>
+
+                <a href="pricing.html">Pricing</a>
+
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+            <!-- CTA -->
+            <a href="contact.html" class="trial-btn">
+                Book Free 3-Day Trial
+            </a>
+
+            <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+    <main class="payment-page">
+
+    <!-- =====================================================
+         PAYMENT HERO
+    ====================================================== -->
+
+    <section class="payment-hero">
+
+        <div class="payment-hero-content">
+
+            <span class="payment-eyebrow">
+                TAKE THE NEXT STEP
+            </span>
+
+            <h1>
+                Complete Your
+                <span>Enrollment</span>
+            </h1>
+
+            <p>
+                You're one step away from beginning your Quran
+                learning journey with Quran Academy.
+            </p>
+
+            <div class="payment-divider">
+                <span></span>
+                ◇
+                <span></span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         ENROLLMENT TYPE
+    ====================================================== -->
+
+    <section class="payment-options">
+
+        <button
+            type="button"
+            class="payment-mode active"
+            data-mode="trial"
+        >
+            <span class="payment-mode-icon">♧</span>
+
+            <span>
+                <strong>Book Free Trial</strong>
+                <small>Try your first class for free</small>
+            </span>
+        </button>
+
+
+        <button
+            type="button"
+            class="payment-mode"
+            data-mode="enroll"
+        >
+            <span class="payment-mode-icon">◆</span>
+
+            <span>
+                <strong>Enroll in a Course</strong>
+                <small>Complete your enrollment</small>
+            </span>
+        </button>
+
+    </section>
+
+
+    <!-- =====================================================
+         FREE TRIAL
+    ====================================================== -->
+
+    <section class="payment-panel trial-panel active">
+
+        <div class="payment-card">
+
+            <div class="payment-card-heading">
+
+                <span>FREE TRIAL</span>
+
+                <h2>Book Your Free Trial Class</h2>
+
+                <p>
+                    Experience our one-on-one teaching style before
+                    starting your regular Quran learning classes.
+                </p>
+
+            </div>
+
+
+            <form class="payment-form" id="trialForm">
+
+                <div class="payment-form-grid">
+
+                    <div class="payment-field">
+
+                        <label>
+                            Full Name <b>*</b>
+                        </label>
+
+                        <div class="payment-input">
+                            <span>♙</span>
+
+                            <input
+                                type="text"
+                                placeholder="Your full name"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="payment-field">
+
+                        <label>
+                            Email Address <b>*</b>
+                        </label>
+
+                        <div class="payment-input">
+                            <span>✉</span>
+
+                            <input
+                                type="email"
+                                placeholder="your@email.com"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="payment-field">
+
+                        <label>
+                            Phone / WhatsApp <b>*</b>
+                        </label>
+
+                        <div class="payment-input">
+                            <span>⌕</span>
+
+                            <input
+                                type="tel"
+                                placeholder="Your phone number"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="payment-field">
+
+                        <label>
+                            Course of Interest
+                        </label>
+
+                        <div class="payment-input">
+                            <span>▢</span>
+
+                            <select>
+
+                                <option>
+                                    Select a course
+                                </option>
+
+                                <option>
+                                    Quran Reading
+                                </option>
+
+                                <option>
+                                    Quran with Tajweed
+                                </option>
+
+                                <option>
+                                    Quran Memorization
+                                </option>
+
+                                <option>
+                                    Arabic
+                                </option>
+
+                                <option>
+                                    Islamic Studies
+                                </option>
+
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                    <div class="payment-field">
+
+                        <label>
+                            Preferred Date
+                        </label>
+
+                        <div class="payment-input">
+                            <span>◷</span>
+
+                            <input type="date">
+                        </div>
+
+                    </div>
+
+
+                    <div class="payment-field">
+
+                        <label>
+                            Preferred Time
+                        </label>
+
+                        <div class="payment-input">
+                            <span>◴</span>
+
+                            <input type="time">
+                        </div>
+
+                    </div>
+
+
+                    <div class="payment-field payment-field-full">
+
+                        <label>
+                            Any Special Request?
+                        </label>
+
+                        <div class="payment-input payment-textarea">
+
+                            <span>▤</span>
+
+                            <textarea
+                                placeholder="Tell us anything you'd like us to know..."
+                            ></textarea>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="payment-submit"
+                >
+                    BOOK FREE TRIAL
+                    <span>→</span>
+                </button>
+
+
+                <div class="payment-note">
+                    <span>✓</span>
+
+                    <p>
+                        No payment required. We'll contact you to
+                        confirm your trial class.
+                    </p>
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+    <section class="payment-panel enroll-panel">
+
+    <div class="payment-card">
+
+        <!-- HEADING -->
+
+        <div class="payment-card-heading plan-heading">
+
+            <span>ENROLL NOW</span>
+
+            <h2>Select Your Plan</h2>
+
+            <p>
+                Choose the learning schedule that works best for
+                you, then continue with your enrollment.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             PLANS
+        ================================================== -->
+
+        <div class="enrollment-plans">
+
+            <!-- 2 DAYS -->
+
+            <button
+                type="button"
+                class="enrollment-plan"
+                data-plan="2 Days / Week"
+                data-details="8 classes / month"
+                data-price="$40"
+            >
+
+                <span class="plan-title">
+                    2 Days / Week
+                </span>
+
+                <span class="plan-classes">
+                    8 classes / month
+                </span>
+
+                <strong class="plan-price">
+                    $40
+                </strong>
+
+                <span class="plan-period">
+                    per month
+                </span>
+
+            </button>
+
+
+            <!-- 3 DAYS -->
+
+            <button
+                type="button"
+                class="enrollment-plan popular-plan active"
+                data-plan="3 Days / Week"
+                data-details="12 classes / month"
+                data-price="$54"
+            >
+
+                <span class="popular-badge">
+                    POPULAR
+                </span>
+
+                <span class="plan-title">
+                    3 Days / Week
+                </span>
+
+                <span class="plan-classes">
+                    12 classes / month
+                </span>
+
+                <strong class="plan-price">
+                    $54
+                </strong>
+
+                <span class="plan-period">
+                    per month
+                </span>
+
+            </button>
+
+
+            <!-- 4 DAYS -->
+
+            <button
+                type="button"
+                class="enrollment-plan"
+                data-plan="4 Days / Week"
+                data-details="16 classes / month"
+                data-price="$71"
+            >
+
+                <span class="plan-title">
+                    4 Days / Week
+                </span>
+
+                <span class="plan-classes">
+                    16 classes / month
+                </span>
+
+                <strong class="plan-price">
+                    $71
+                </strong>
+
+                <span class="plan-period">
+                    per month
+                </span>
+
+            </button>
+
+
+            <!-- 5 DAYS -->
+
+            <button
+                type="button"
+                class="enrollment-plan"
+                data-plan="5 Days / Week"
+                data-details="20 classes / month"
+                data-price="$88"
+            >
+
+                <span class="plan-title">
+                    5 Days / Week
+                </span>
+
+                <span class="plan-classes">
+                    20 classes / month
+                </span>
+
+                <strong class="plan-price">
+                    $88
+                </strong>
+
+                <span class="plan-period">
+                    per month
+                </span>
+
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             SELECTED PLAN
+        ================================================== -->
+
+        <div class="selected-plan">
+
+            <div class="selected-plan-icon">
+                ◆
+            </div>
+
+            <div class="selected-plan-info">
+
+                <span>YOUR SELECTED PLAN</span>
+
+                <h3 id="selectedPlanName">
+                    3 Days / Week
+                </h3>
+
+                <p id="selectedPlanDetails">
+                    12 classes / month
+                </p>
+
+            </div>
+
+            <div class="selected-plan-price">
+
+                <strong id="selectedPlanPrice">
+                    $54
+                </strong>
+
+                <span>per month</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             ENROLLMENT FORM
+        ================================================== -->
+
+        <form class="payment-form" id="enrollForm">
+
+            <div class="payment-form-grid">
+
+                <div class="payment-field payment-field-full">
+
+                    <label>
+                        Course <b>*</b>
+                    </label>
+
+                    <div class="payment-input">
+
+                        <span>▢</span>
+
+                        <select id="courseSelect" required>
+
+                            <option value="">
+                                Select your course
+                            </option>
+
+                            <option>
+                                Quran Reading
+                            </option>
+
+                            <option>
+                                Quran with Tajweed
+                            </option>
+
+                            <option>
+                                Quran Memorization
+                            </option>
+
+                            <option>
+                                Arabic
+                            </option>
+
+                            <option>
+                                Islamic Studies
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="payment-field">
+
+                    <label>
+                        Full Name <b>*</b>
+                    </label>
+
+                    <div class="payment-input">
+
+                        <span>♙</span>
+
+                        <input
+                            type="text"
+                            placeholder="Your full name"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="payment-field">
+
+                    <label>
+                        Email Address <b>*</b>
+                    </label>
+
+                    <div class="payment-input">
+
+                        <span>✉</span>
+
+                        <input
+                            type="email"
+                            placeholder="your@email.com"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="payment-field">
+
+                    <label>
+                        Phone / WhatsApp <b>*</b>
+                    </label>
+
+                    <div class="payment-input">
+
+                        <span>⌕</span>
+
+                        <input
+                            type="tel"
+                            placeholder="Your phone number"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="payment-field">
+
+                    <label>
+                        Country
+                    </label>
+
+                    <div class="payment-input">
+
+                        <span>⌖</span>
+
+                        <select>
+
+                            <option>United States</option>
+                            <option>Canada</option>
+                            <option>United Kingdom</option>
+                            <option>Australia</option>
+                            <option>Europe</option>
+                            <option>Other</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PAYMENT SUMMARY -->
+
+            <div class="payment-summary">
+
+                <div>
+                    <span>Selected Plan</span>
+
+                    <strong id="summaryPlan">
+                        3 Days / Week
+                    </strong>
+                </div>
+
+                <div>
+                    <span>Monthly Fee</span>
+
+                    <strong id="summaryPrice">
+                        $54
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <!-- PAYMENT METHOD -->
+
+            <div class="payment-method">
+
+                <label>
+                    Payment Method
+                </label>
+
+                <div class="payment-method-box">
+
+                    <span class="card-symbol">
+                        ▣
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Secure Online Payment
+                        </strong>
+
+                        <small>
+                            You'll continue to our secure
+                            payment provider.
+                        </small>
+
+                    </div>
+
+                    <span class="secure-check">
+                        ✓
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="payment-submit payment-submit-gold"
+            >
+                PROCEED TO PAYMENT
+                <span>→</span>
+            </button>
+
+
+            <div class="payment-note">
+
+                <span>⌑</span>
+
+                <p>
+                    Secure payment. Your information is encrypted
+                    and protected.
+                </p>
+
+            </div>
+
+        </form>
+        
+<!-- CHECKOUT SECTION -->
+<section id="academyCheckout" class="academy-checkout" hidden>
+  <div class="academy-checkout-card">
+    <button type="button" id="backToEnrollment">
+  ← Back to Enrollment Form
+</button>
+    <div class="academy-checkout-head">
+      <div class="symbol">✦</div>
+      <h2>Complete Your Enrollment</h2>
+      <p>Review your course details and continue to checkout.</p>
+    </div>
+
+    <div class="academy-order">
+      <div>
+        <span>Selected Course</span>
+        <strong id="academyPlanName">Course Plan</strong>
+        <small id="academyPlanDetails"></small>
+      </div>
+
+      <div class="amount">
+        <span>Monthly Fee</span>
+        <strong id="academyPlanPrice">$54</strong>
+      </div>
+    </div>
+
+    <div class="academy-card-preview">
+      <div class="chip">▦</div>
+      <div class="number">•••• &nbsp; •••• &nbsp; •••• &nbsp; ••••</div>
+      <div class="bottom">
+        <span>CARD PAYMENT</span>
+        <strong>VISA / MC</strong>
+      </div>
+    </div>
+
+    <form id="academyPaymentForm" novalidate>
+      <div class="academy-field">
+        <label for="academyCardName">Cardholder Name</label>
+        <input id="academyCardName" type="text"
+          placeholder="Name on card" required>
+      </div>
+
+      <div class="academy-field">
+        <label for="academyCardNumber">Card Number</label>
+        <input id="academyCardNumber" type="text"
+          inputmode="numeric" placeholder="Enter card number"
+          maxlength="23" required>
+      </div>
+
+      <div class="academy-fields-row">
+        <div class="academy-field">
+          <label for="academyExpiry">Expiry Date</label>
+          <input id="academyExpiry" type="text"
+            placeholder="MM/YY" maxlength="5" required>
+        </div>
+
+        <div class="academy-field">
+          <label for="academyCvv">Security Code</label>
+          <input id="academyCvv" type="password"
+            inputmode="numeric" placeholder="CVV"
+            maxlength="4" required>
+        </div>
+      </div>
+      <button class="academy-pay-button" id="academyPayButton"
+        type="submit">
+        <span id="academyPayText">Continue to Payment</span> →
+      </button>
+    </form>
+
+    <div class="academy-result" id="academyPaymentResult" hidden>
+      <div class="academy-result-icon">✓</div>
+      <h3>Checkout Complete</h3>
+      <div class="academy-reference">
+        Reference: <span id="academyReference"></span>
+      </div>
+
+      <button type="button" class="academy-finish-button"
+        id="academyFinishButton">
+        Finish
+      </button>
+    </div>
+
+  </div>
+</section>
+    </div>
+
+</section>
+
+    <!-- =====================================================
+         TRUST FEATURES
+    ====================================================== -->
+
+    <section class="payment-trust">
+
+        <div class="payment-trust-item">
+
+            <span>♢</span>
+
+            <div>
+                <strong>Secure Payment</strong>
+                <small>Protected transactions</small>
+            </div>
+
+        </div>
+
+
+        <div class="payment-trust-item">
+
+            <span>♧</span>
+
+            <div>
+                <strong>Trusted Learning</strong>
+                <small>Learn with confidence</small>
+            </div>
+
+        </div>
+
+
+        <div class="payment-trust-item">
+
+            <span>◉</span>
+
+            <div>
+                <strong>Dedicated Support</strong>
+                <small>We're here to help</small>
+            </div>
+
+        </div>
+
+
+        <div class="payment-trust-item">
+
+            <span>♥</span>
+
+            <div>
+                <strong>Learn With Purpose</strong>
+                <small>For a better tomorrow</small>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SUCCESS POPUP
+    ====================================================== -->
+
+    <div
+        class="payment-success-popup"
+        id="paymentSuccessPopup"
+    >
+
+        <div class="payment-success-box">
+
+            <button
+                type="button"
+                class="payment-popup-close"
+                id="paymentPopupClose"
+            >
+                ×
+            </button>
+
+            <div class="payment-success-icon">
+                ✓
+            </div>
+
+            <h3 id="paymentPopupTitle">
+                Request Submitted!
+            </h3>
+
+            <p id="paymentPopupText">
+                Thank you. Our team will contact you shortly
+                to confirm your details.
+            </p>
+
+            <button
+                type="button"
+                class="payment-popup-btn"
+                id="paymentPopupOk"
+            >
+                OK
+            </button>
+
+        </div>
+
+    </div>
+
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
